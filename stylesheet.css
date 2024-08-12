@@ -1,0 +1,28 @@
+body    {
+    font-family: Aleo;
+    max-width: auto ;
+    box-sizing:border-box
+}
+
+header  {
+    border: 1px solid rgb(54, 34, 34);
+    max-height: 20px ;
+}
+
+.hero-image img {
+    width: auto;
+    max-width: 100%;
+    height:auto;
+    object-fit: contain;
+}
+.hero-image {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+
+.hero-banner {
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: aliceblue;
+}
