@@ -1,41 +1,70 @@
 body    {
     font-family: Aleo;
-    max-width: auto ;
-    box-sizing:border-box;
+    max-width: auto;
+    box-sizing: border-box;
     font-size: 10px;
     margin: 0; 
 }
 
 header  {
-    border: 1px solid rgb(54, 34, 34);
     padding: 10px 15px;
 }
 
 main {
-    max-width: auto;
-    border: solid black;
     margin: 0 auto;
     grid-template-rows: 1fr 3fr;
 }
 
 .hero-image img {
-    width: 95%;
+    width: 100%;
     max-width: 100%;
-    height:auto;
+    height: auto;
     object-fit: cover;
 }
 
 .hero {
     display: grid;
     grid-template-columns: 1fr;
-    /* gap: 20px; */
-    grid-template-rows: 3fr 2fr;
+    grid-template-rows: 2fr 1fr;
 }
 
-
 .hero-banner {
-    border: 10px solid black;
     padding: 20px;
-    margin: 20px 0;
-    background-color: aliceblue;
+    background-color: #f0911b;
+}
+
+.hero-banner h3 {
+    font-size: 2rem;
+}
+
+.hero-banner h4 {
+    font-size: 1rem;
+}
+
+.hero-banner span {
+    font-size: 1rem;
+    color: #ffffff
+}
+
+.how-it-works {
+    display: grid;
+    grid-template-rows: 75px 1fr 1fr 1fr;
+    height: 80rem;
+    border: 3px solid black;
+}
+
+.how-it-works header{
+    border: 2px solid blue;
+}
+
+.give-us-a-call {
+    border: 2px solid purple;
+}
+
+.we-come-to-you {
+    border: 2px solid red;
+}
+
+.we-recommend {
+    border: 2px solid green;
 }
